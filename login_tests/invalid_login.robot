@@ -20,6 +20,7 @@ Invalid Username And Password    invalid          whatever
 Empty Username                   ${EMPTY}         ${VALID PASSWORD}
 Empty Password                   ${VALID USER}    ${EMPTY}
 Empty Username And Password      ${EMPTY}         ${EMPTY}
+Valid Username And Valid Password (fail)      ${VALID USER}         ${VALID PASSWORD}
 
 *** Keywords ***
 Login With Invalid Credentials Should Fail
